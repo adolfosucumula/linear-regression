@@ -22,3 +22,8 @@ r_sq = model.score(X_, y)
 print(f"Coeffiecient of determination: {r_sq}")
 print(f"Intercept: {model.intercept_}")
 print(f"Coefficients: {model.coef_}")
+
+#Predict response 
+
+y_pred = model.predict(X_)
+print(f"predicted response: \n{y_pred}")
