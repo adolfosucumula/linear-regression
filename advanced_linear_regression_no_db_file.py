@@ -15,3 +15,8 @@ results = model.fit()
 print(f"Coefficient of determination: {results.rsquared}")
 print(f"Adjusted coefficient of determination: {results.rsquared_adj}")
 print(f"Regression coefficient: {results.params}")
+
+#Predict response
+print(f"Predicted response: \n{results.fittedvalues}")
+print(f"predicted response: \n{results.predict(X)}")
+
